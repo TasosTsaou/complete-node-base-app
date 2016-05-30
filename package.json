@@ -1,0 +1,28 @@
+{
+    "name": "node-docker-mongo-angular-tutum-example",
+    "version": "1.0.0",
+    "description": "base example of a dockerized web app.",
+    "main": "index.js",
+    "scripts": {
+        "test": "node ./node_modules/karma/bin/karma start --single-run"
+    },
+    "author": "tasoskanenas@gmail.com",
+    "license": "ISC",
+    "dependencies": {
+        "bower": "^1.7.9",
+        "compression": "^1.6.2",
+        "errorhandler": "^1.4.3",
+        "express": "^4.13.4",
+        "morgan": "^1.7.0"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "mocha": "^2.5.3",
+        "phantomjs-prebuilt": "^2.1.7",
+        "karma": "^0.13.22",
+        "karma-chai": "^0.1.0",
+        "karma-mocha": "^1.0.1",
+        "karma-ng-html2js-preprocessor": "^1.0.0",
+        "karma-phantomjs-launcher": "^1.0.0"
+    }
+}
